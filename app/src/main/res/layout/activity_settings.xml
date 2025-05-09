@@ -1,0 +1,41 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Admin Panel Button -->
+    <Button
+        android:id="@+id/adminPanelButton"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="Admin Panel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Dark Mode Toggle -->
+    <Switch
+        android:id="@+id/darkModeSwitch"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Dark Mode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminPanelButton" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/darkModeSwitch" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
