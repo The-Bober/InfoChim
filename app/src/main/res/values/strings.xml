@@ -7,7 +7,9 @@
     <string name="chemlearn">ChemLearn</string>
     <string name="admin_panel">Admin Panel</string>
     <string name="register">Register</string>
-    <string name="email">Email</string>
+    <string name="email">E-mail</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
+    <string name="lecture_title">Lecture Title</string>
+    <string name="select_quiz_type">Select Quiz Type</string>
 </resources>

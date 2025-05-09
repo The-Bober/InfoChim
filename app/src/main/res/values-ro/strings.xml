@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="dark_mode">Modul întunecat</string>
+    <string name="welcome_to_chemlearn">Bun venit la ChemLearn</string>
+    <string name="start_learning">Începe să înveți</string>
+    <string name="settings">Setări</string>
+    <string name="chemlearn">ChemLearn</string>
+    <string name="admin_panel">Panou de administrare</string>
+    <string name="register">Înregostrează-te</string>
+    <string name="email">E-Mail</string>
+    <string name="login">Logare</string>
+    <string name="password">Parolă</string>
+    <string name="lecture_title">Titlu de lectură</string>
+    <string name="select_quiz_type">Selectează tip de întrebare</string>
+</resources>

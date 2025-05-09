@@ -1,0 +1,56 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Dropdown to Select Lecture -->
+        <Spinner
+            android:id="@+id/lectureDropdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Lesson Content -->
+        <EditText
+            android:id="@+id/lessonTextInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lesson Content"
+            android:inputType="textMultiLine" />
+
+        <!-- Lesson Description -->
+        <EditText
+            android:id="@+id/lessonDescriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lesson Description"
+            android:inputType="textMultiLine" />
+
+        <!-- YouTube Video URL -->
+        <EditText
+            android:id="@+id/youtubeUrlInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YouTube Video URL" />
+
+        <!-- Chemical Reaction Input -->
+        <EditText
+            android:id="@+id/chemicalReactionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chemical Reaction (H₂O → H⁺ + OH⁻)"
+            android:inputType="textMultiLine" />
+
+        <!-- Add Lesson Button -->
+        <Button
+            android:id="@+id/addLessonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Lesson" />
+    </LinearLayout>
+</ScrollView>

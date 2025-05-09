@@ -5,24 +5,23 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/questionText"
+    <EditText
+        android:id="@+id/lectureTitleInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Question?"
-        android:textSize="18sp"
-        android:layout_marginBottom="16dp" />
+        android:hint="@string/lecture_title"
+        android:importantForAutofill="no" />
 
-    <RadioGroup
-        android:id="@+id/optionsGroup"
+    <EditText
+        android:id="@+id/lectureDescriptionInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginBottom="16dp" />
+        android:hint="Short Description"
+        android:inputType="textMultiLine" />
 
     <Button
-        android:id="@+id/submitAnswerButton"
+        android:id="@+id/addLectureButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit Answer" />
+        android:text="Add Lecture" />
 </LinearLayout>

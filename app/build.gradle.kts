@@ -52,5 +52,5 @@ dependencies {
     implementation(libs.play.services.auth)
     implementation(libs.firebase.database)
     implementation(libs.firebase.storage)
-    implementation(libs.picasso) // For image loading
+    implementation ("com.squareup.picasso:picasso:2.8")
 }

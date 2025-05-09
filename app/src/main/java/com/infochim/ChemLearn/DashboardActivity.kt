@@ -16,7 +16,7 @@ class DashboardActivity : AppCompatActivity() {
 
         // Navigate to LessonsActivity when "Start Learning" is clicked
         startLearningButton.setOnClickListener {
-            val intent = Intent(this, LessonsActivity::class.java)
+            val intent = Intent(this, LectureActivity::class.java)
             startActivity(intent)
         }
 
