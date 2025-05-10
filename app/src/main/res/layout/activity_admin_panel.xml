@@ -1,32 +1,35 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/createButton"
-        android:layout_width="match_parent"
+        android:id="@+id/createLessonButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Create User" />
+        android:layout_marginTop="110dp"
+        android:text="Create Lesson"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/CreateLectureButton"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/readButton"
-        android:layout_width="match_parent"
+        android:id="@+id/CreateLectureButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Read Users" />
+        android:text="Create Lecture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/CreateQuizButton"
+        app:layout_constraintTop_toBottomOf="@+id/createLessonButton" />
 
     <Button
-        android:id="@+id/updateButton"
-        android:layout_width="match_parent"
+        android:id="@+id/CreateQuizButton"
+        android:layout_width="379dp"
         android:layout_height="wrap_content"
-        android:text="Update User" />
+        android:text="Create Quiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateLectureButton" />
 
-    <Button
-        android:id="@+id/deleteButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Delete User" />
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
